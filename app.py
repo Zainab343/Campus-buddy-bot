@@ -96,3 +96,6 @@ for sender, msg in st.session_state.chat_history:
         """, unsafe_allow_html=True)
 
 st.markdown("</div>", unsafe_allow_html=True)
+with st.spinner("🤔 Campus Buddy is thinking..."):
+    answer = get_response(user_input)
+
