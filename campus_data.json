@@ -81,7 +81,7 @@
   },
   {
     "question": "Who are you?",
-    "answer": "I’m Campus Buddy - your AI assistant here to help with questions about Riphah University."
+    "answer": "I'm Campus Buddy - your AI assistant here to help with questions about Riphah University."
   },
   {
     "question": "How can I contact you?",
@@ -98,5 +98,102 @@
   {
     "question": "Where is the hostel located?",
     "answer": "The student hostel is located at the rear side of the campus, with separate wings for male and female students."
-  }
+  },
+  {
+    "question": "Where can I find my ID card?",
+    "answer": "You can find your ID card at the student services office in Riphah International University, Gulberg Greens, Islamabad."
+  },
+  {
+    "question": "How do I reset my university password?",
+    "answer": "You can reset your password through the Riphah student portal under 'Account Settings'."
+  },
+  {
+  "question": "how many departments are there",
+  "answer": "Riphah International University, Gulberg Green Campus, offers 8 departments including Computer Science, Management Sciences, Rehabilitation Sciences, Islamic Studies, Media Sciences, Engineering, and more."
+  },
+  {
+    "question": "How can I change my course?",
+    "answer": "To change your course, you need to fill out a course change request form and submit it to the Academic Affairs Office within the add/drop period."
+  },
+  {
+    "question": "What is the credit hour policy?",
+    "answer": "Each course is assigned credit hours based on lecture and lab time. Most undergraduate courses are 3 credit hours."
+  },
+  {
+    "question": "Can I take summer classes?",
+    "answer": "Yes, Riphah offers summer sessions. You can register through the student portal when registration opens."
+  },
+  {
+  "question": "How do I pay my fees online?",
+  "answer": "You can pay your fees through the student portal using bank transfer or mobile wallet services like Easypaisa or JazzCash."
+  },
+  {
+    "question": "Is there a late fee fine?",
+    "answer": "Yes, late fee fines are applied after the due date. Visit the Accounts Office for detailed fine policies."
+  },
+  {
+  "question": "Where is the printing and photocopy shop?",
+  "answer": "The printing and photocopy service is located next to the library on the 2nd floor."
+  },
+  {
+    "question": "Is there a prayer area?",
+    "answer": "Yes, separate prayer areas are available for male and female students near the Student Center."
+  },
+  {
+    "question": "Are lockers available?",
+    "answer": "Yes, lockers are provided upon request from the Admin Office, based on availability."
+  },
+  {
+  "question": "How do I access my university email?",
+  "answer": "You can log in to your university email using your student ID at mail.riphah.edu.pk."
+  },
+  {
+    "question": "What if my student portal is not working?",
+    "answer": "Please report issues to IT Support at itsupport@riphah.edu.pk or visit the IT Help Desk in Block B."
+  },
+  {
+  "question": "Is there a university transport service?",
+  "answer": "Yes, Riphah provides transport services for students. Contact the Transport Office or check the website for routes and fees."
+  },
+  {
+    "question": "Where is the shuttle stop?",
+    "answer": "The shuttle stop is at the main parking area, near the front gate."
+  },
+  {
+  "question": "When is the next job fair?",
+  "answer": "Job fairs are held once a semester. Check the Career Services section on the website or social media for upcoming dates."
+  },
+  {
+    "question": "How can I join the drama society?",
+    "answer": "You can join during club registration week or contact the Student Affairs Office for ongoing recruitment."
+  },
+  {
+  "question": "How can I meet my course instructor?",
+  "answer": "You can meet instructors during office hours or email them for an appointment. Contact info is usually in your course outline."
+},
+{
+  "question": "Where is the Career Services Office?",
+  "answer": "The Career Services Office is located on the 1st floor of the Main Academic Building, near the library."
+},
+{
+  "question": "Are visitors allowed in the hostel?",
+  "answer": "Visitors are allowed during designated hours and must be registered with the hostel warden in advance."
+},
+{
+  "question": "What facilities are available in the hostel?",
+  "answer": "Hostel rooms are furnished with beds, study tables, internet access, and laundry areas."
+},
+{
+  "question": "How do I apply for a character certificate?",
+  "answer": "Submit a request form at the Student Affairs Office along with a copy of your CNIC and student ID."
+},
+{
+  "question": "What is the dress code policy?",
+  "answer": "Students are expected to follow modest and professional attire. Lab coats and ID cards are mandatory where applicable."
+},
+{
+  "question": "Where can I give feedback or complaints?",
+  "answer": "You can submit feedback through the student portal or drop a written complaint in the Feedback Box located in the Student Center."
+}
+
 ]

@@ -3,10 +3,10 @@ from logic import get_response
 import base64
 import os
 
-# Set page config
+# Streamlit page setup
 st.set_page_config(page_title="Campus Buddy Bot", layout="centered")
 
-# Custom CSS styling
+# Custom CSS
 st.markdown("""
     <style>
         body {
@@ -53,21 +53,21 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Convert image to base64 safely
+# Avatar image
 def get_base64_image(path):
     if not os.path.exists(path):
-        return ""  # Return empty string if image not found
+        return ""
     with open(path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode()
 
-avatar_path = "static/avatar.png"  # Use forward slash for compatibility
+avatar_path = "static/avatar.png"
 avatar_base64 = get_base64_image(avatar_path)
 
 # Header
 st.markdown("<h1 style='text-align: center; color: #44ccff;'>🤖 Campus Buddy Bot</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>Ask anything about your campus. I'll try my best to answer!</p>", unsafe_allow_html=True)
 
-# Store chat history
+# Session history
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
@@ -96,6 +96,3 @@ for sender, msg in st.session_state.chat_history:
         """, unsafe_allow_html=True)
 
 st.markdown("</div>", unsafe_allow_html=True)
-with st.spinner("🤔 Campus Buddy is thinking..."):
-    answer = get_response(user_input)
-
